@@ -52,7 +52,8 @@ namespace WordPressPCL.Utility
             // by default don't crash on missing member
             JsonSerializerSettings = new JsonSerializerSettings
             {
-                MissingMemberHandling = MissingMemberHandling.Ignore
+                MissingMemberHandling = MissingMemberHandling.Ignore,
+                DefaultValueHandling = DefaultValueHandling.Ignore
             };
         }
 
@@ -69,7 +70,8 @@ namespace WordPressPCL.Utility
             // by default don't crash on missing member
             JsonSerializerSettings = new JsonSerializerSettings
             {
-                MissingMemberHandling = MissingMemberHandling.Ignore
+                MissingMemberHandling = MissingMemberHandling.Ignore,
+                DefaultValueHandling = DefaultValueHandling.Ignore
             };
         }
 
